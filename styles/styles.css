@@ -179,7 +179,18 @@ main section{
     background-color: #5490F5;
     padding: 11px 20px ;
     color: white;
-
+}
+.vision-card-2{
+    border-radius: 8px;
+    background-color: #09A15C;
+    padding: 11px 20px ;
+    color: white;
+}
+.vision-card-3{
+    border-radius: 8px;
+    background-color: #FFC239;
+    padding: 11px 20px ;
+    color: white;
 }
 .vision-sub{
     margin-bottom: 32px;
@@ -189,14 +200,56 @@ main section{
 .yunus-comment{
     background-image: url(../assets/quote-bg.png);
     background-position: top left;
-    height: 150px;
+    background-position: 25px 24px;
+    margin-bottom: ;
+    /* height: 150px; */
     background-repeat: no-repeat ;
-    padding: 10px;
+    padding: 48px 48px;
+    border: solid 2px #006A50;
+    border-radius: 16px ;
+}
+.yunus-comment> .yunus-comment-title{
+    font-size: 20px;
+    color: rgba(14 , 14, 14, 80%) ;
 }
 /* Recent News */
 .news{
     display: flex;
+    gap:32px;
+    border: solid 2px #006A50;
+    margin-bottom: 24px;
+    padding: 48px ;
+    border-radius: 24px;
 }
+.news .news-img > img{
+    border-radius: 24px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color:rgba(14 , 14, 14, 80%);
+}
+.news-content img{
+    height: 40px;
+    margin-top:12px ;
+}
+.news-content{
+    height:290px ;
+    border: solid 2px #006A50;
+}
+.news-content h3{
+    margin: 0px;
+}
+.text-contyner{
+
+}
+.news button{
+    float: left;
+    margin-bottom: 0;
+    /* position: ; */
+}   
+    
+
 /* Donate Today  */
 .donation-amount-boxs{
     display: flex;
