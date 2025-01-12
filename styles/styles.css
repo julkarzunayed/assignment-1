@@ -51,6 +51,7 @@
 /* Body Styles */
 body{
     font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
 }
 
 /* Nav Styles */
@@ -76,6 +77,9 @@ main{
     margin: 0 auto;
     width: 1280px;
 }
+main>section{
+    margin-top: 80px;
+}
 main section{
     /* margin-top: 130px; */
     /* margin-bottom: 130px; */
@@ -88,9 +92,11 @@ main section{
     background-color: #C6E4D6;
     border-radius: 24px;
     margin-top: 20px;
-    height: 450px;
+    height: 400px;
     padding: 80px 60px;
-    border: solid 2px tomato;
+    
+    /* border: solid 2px tomato; */
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
 }
 .banner-content{
     display: flex;
@@ -99,7 +105,9 @@ main section{
 }
 .content-column{
     width: 622px;
-    margin: 37px 64px 37px 0px;
+    height: 326px;
+    margin-bottom: 37px;
+    margin-top: 37px;
 }
 .banner-img{
     height: 400px;
@@ -108,13 +116,14 @@ main section{
     font-size: 24px;
     color: rgba(14 , 14, 14, 50%);
     font-weight: 700;
-    margin-bottom: 16px;
+    margin: 0%;
 }
 .banner h1{
     color: #0E0E0E ;
     font-weight: bold;
     font-size: 56px;
     margin-bottom: 24px;
+    margin-top: 10px;
 }
 /* Pillars Card Styles */
 .pillar-section{
@@ -126,10 +135,12 @@ main section{
 }
 .pillar{
     justify-content: space-between;
-    border: #006A50 solid 2px;
+    /* border: #006A50 solid 2px; */
     width: 302px;
     border-radius: 16px;
     padding: 24px ;
+    background-color: white;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
 }
 .pillar img{
     height: 62px;
@@ -146,6 +157,9 @@ main section{
     color: rgba(14 , 14, 14, 70%);
 }
 /* The vision of Future */
+/* .vision-of-future{
+    margin-top: 80px;
+} */
 .vision-container{
     display: flex;
     margin-bottom: 32px;
@@ -167,12 +181,15 @@ main section{
 }
 .card-1{
     background-color:rgba(84, 144, 245, 20%) ;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
 }
 .card-2{
     background-color: #C6E4D6 ;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
 }
 .card-3{
     background-color: #F7EBCF ;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
 }
 .vision-card-1{
     border-radius: 8px;
@@ -205,8 +222,10 @@ main section{
     /* height: 150px; */
     background-repeat: no-repeat ;
     padding: 48px 48px;
-    border: solid 2px #006A50;
+    /* border: solid 2px #006A50; */
     border-radius: 16px ;
+    background-color: white;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
 }
 .yunus-comment> .yunus-comment-title{
     font-size: 20px;
@@ -216,10 +235,12 @@ main section{
 .news{
     display: flex;
     gap:32px;
-    border: solid 2px #006A50;
+    /* border: solid 2px #006A50; */
     margin-bottom: 24px;
     padding: 48px ;
     border-radius: 24px;
+    background-color: white;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
 }
 .news .news-img > img{
     border-radius: 24px;
@@ -228,6 +249,7 @@ main section{
     font-size: 32px;
     font-weight: bold;
     color:rgba(14 , 14, 14, 80%);
+
 }
 .news-content img{
     height: 40px;
@@ -235,7 +257,7 @@ main section{
 }
 .news-content{
     height:290px ;
-    border: solid 2px #006A50;
+    /* border: solid 2px #006A50; */
 }
 .news-content h3{
     margin: 0px;
@@ -251,10 +273,125 @@ main section{
     
 
 /* Donate Today  */
+.donate-today{
+    margin-top:80px ;
+    /* border: solid 2px #006A50; */
+}
+
 .donation-amount-boxs{
-    display: flex;
+    display: flex; 
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
     /* padding: 20px 30px; */
+    /* border: solid 2px #006A50; */
 }
+
 .amount-box{
-    padding: 20px 30px;
+    padding: 40px 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    border-radius:16px ;
+    /* border: solid 2px #006A50; */
+    background-color: white;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
+    
 }
+.amount-box p{
+    margin: 0;
+}
+.donate-today-p{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    width: 1104px;
+    padding: 1px 88px;
+    
+}
+.donate-today-inp-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px ;
+}
+.donate-today-inp-box input{
+    height: 64px;
+    width: 1032px;
+    border: none;
+    text-align: center;
+    margin-bottom: 32px ;
+    text-align: center;
+    color: rgba(14, 14, 14, 30%);
+    font-size:20px ;
+}
+
+.subscribe-newsletter{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    height: 315px;
+    padding: 80px;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
+}
+.subscribe-input{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-input input[type="email"]{
+    /* height: 55px; */
+    width: 600px;
+    border: none;
+    font-size: 16px ;
+    color: rgba(14, 14, 14, 30%);
+    padding: 18px 40px;
+    border-top-left-radius: 9px;    
+    border-bottom-left-radius: 9px;
+    margin-right: 0;
+
+}
+.subscribe-input button{
+    height: 55px;
+    /* flex-grow: 1; */
+    /* width: px; */
+    padding-left: 34px;
+    padding-right: 34px;
+    width: auto;
+    background-color: #006A50;
+    color: white;
+    border-top-right-radius: 9px;    
+    border-bottom-right-radius: 9px;    
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 0;
+    color: lightgrey;
+}
+footer{
+    padding-bottom:  50px ;
+    padding-top: 50 px;
+    background-color: white;
+    margin: 0;
+}
+footer img{
+    height: 24px;
+    margin-top:32px ;
+    margin-right: 23px;
+    gap: 23px;
+}
+footer h3{
+    margin-top: 30px;
+}
+/* {
+    padding:  17px 34px;
+    height: 59px;
+    background-color: #006A50;
+    color: white;
+    border-top-right-radius: 9px;    
+    border-bottom-right-radius: 9px;    
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+} */
