@@ -7,43 +7,85 @@
     <style>
         table{
             border-collapse: collapse;
+            margin: 0;
+            height: 345px;
+            width: 1216px;
+        }
+        thead{
+            height: 72px;
+            background-color:#C6E4D6 ;
         }
         th, td{
-            border: solid 2px tomato;
+            border: solid 1px rgba(14, 14, 14, 15%);
+            padding-left:24px  ;
         }
         th span{
             text-align: right;
         }
+        div{
+            padding: 30px;
+            border: solid 2px salmon;
+
+        }
     </style>
+    
 </head>
 <body>
-    <table>
-        <thead>
-            <tr >
-                <th colspan="2">Questions <span>Select Your Opinion</span></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-                <td><button>Yes, I Agree</button></td>
-            </tr>
-            <tr>
-                <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-                <td><button>Yes, I Agree</button></td>
-            </tr>
-            <tr>
-                <td>
-                    Do you believe Bangladesh is on the right path toward becoming a developed nation?
-                </td>
-                <td><button>Yes, I Agree</button></td>
-            </tr>
-            
-        </tbody>
-    </table>
-    <div style="display: flex; align-items: center;">
+    <div>
+        <table>
+            <thead>
+                <tr >
+                    <th colspan="2">Questions <span>Select Your Opinion</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                    <td><select name="" id="">
+                        <option value="Yes,I Agree">Yes,I Agree</option>
+                        <option value="No, I Don't">No, I Don't</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                    <td><select name="" id="">
+                        <option value="Yes,I Agree">Yes,I Agree</option>
+                        <option value="No, I Don't">No, I Don't</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Do you believe Bangladesh is on the right path toward becoming a developed nation?
+                    </td>
+                    <td><select name="" id="">
+                        <option value="Yes,I Agree">Yes,I Agree</option>
+                        <option value="No, I Don't">No, I Don't</option>
+                    </select></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <select name="" id="">
+        <option value="Yes,I Agree">Yes,I Agree</option>
+        <option value="No, I Don't">No, I Don't</option>
+    </select>
+<br>
+<br>
+    <input type="checkbox" name="hsdskdfj" id="" placeholder="dsjfkjs">
+    <select name="" id=""></select>
+    <label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+    <!-- <div style="display: flex; align-items: center;">
         <input type="email" style="flex-grow: 1; margin-right: 0;"> 
         <button style="margin-left: 0;">Submit</button>
-      </div>
+      </div> -->
 </body>
 </html>
