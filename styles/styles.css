@@ -9,12 +9,28 @@
     font-weight: bold;
     color: white;
     border-radius: 5px;
-   
+   p:hover, h1:hover, a:hover {
+  background-color: yellow;
+}
     border: none;
 } */
 /* box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%); */
 
+/* Hover Effects */
+button:hover, .opinion table select:hover {
+    background-color: rgb(186, 255, 24);
+    box-shadow: 0 6px 25px 0 rgba(145, 255, 0, 0.61);
+    color: #0E0E0E;
+  }
+.amount-box:hover{
+    background-color: #b4dac8;
+    box-shadow: 0 6px 50px 0 rgba(73, 188, 255, 0.452);
+}
+.amount-box:hover>p {
+    color: white;
+}
 /* common Styles */
+
 .btn-common{
     padding: 17px 34px;
     background-color: #006A50;
@@ -154,10 +170,7 @@ main section{
     font-size: 16px;
     color: rgba(14 , 14, 14, 70%);
 }
-/* The vision of Future */
-/* .vision-of-future{
-    margin-top: 80px;
-} */
+        /* The vision of Future */
 .vision-container{
     display: flex;
     margin-bottom: 32px;
@@ -194,33 +207,34 @@ main section{
     background-color: #5490F5;
     padding: 11px 20px ;
     color: white;
+    border: none;
 }
 .vision-card-2{
     border-radius: 8px;
     background-color: #09A15C;
     padding: 11px 20px ;
     color: white;
+    border: none;
 }
 .vision-card-3{
     border-radius: 8px;
     background-color: #FFC239;
     padding: 11px 20px ;
     color: white;
+    border: none;
 }
 .vision-sub{
     margin-bottom: 32px;
     margin-top: 24px; 
 }
-/* Dr. Muhammad Yunus Comment */
+            /* Dr. Muhammad Yunus Comment */
 .yunus-comment{
     background-image: url(../assets/quote-bg.png);
     background-position: top left;
     background-position: 25px 24px;
     margin-bottom: ;
-    /* height: 150px; */
     background-repeat: no-repeat ;
     padding: 48px 48px;
-    /* border: solid 2px #006A50; */
     border-radius: 16px ;
     background-color: white;
     box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
@@ -230,7 +244,7 @@ main section{
     color: rgba(14 , 14, 14, 80%) ;
     margin: 0%;
 }
-/* Opinion Table style */
+            /* Opinion Table style */
 .opinion table{
     border-collapse: collapse;
     margin: 0;
@@ -253,7 +267,6 @@ main section{
     margin-top: 24px;
     border-radius: 24px;
     background-color: white;
-    /* border: solid 2px salmon; */
 }
 .opinion table select{
     padding: 12.5px 16.5px;
@@ -261,6 +274,7 @@ main section{
     font-size: 16px;
     background-color: #C6E4D6;
     border-radius: 4px;
+    border: none;
 
 
 }
@@ -275,7 +289,7 @@ main section{
     font-size: 20px;
     font-weight:700 ;
 }
-/* Recent News */
+            /* Recent News */
 .news{
     display: flex;
     gap:32px;
@@ -310,14 +324,12 @@ main section{
 .news button{
     float: left;
     margin-bottom: 0;
-    /* position: ; */
 }   
     
 
 /* Donate Today  */
 .donate-today{
     margin-top:80px ;
-    /* border: solid 2px #006A50; */
 }
 
 .donation-amount-boxs{
@@ -325,8 +337,6 @@ main section{
     gap: 24px;
     align-items: center;
     justify-content: center;
-    /* padding: 20px 30px; */
-    /* border: solid 2px #006A50; */
 }
 
 .amount-box{
@@ -335,7 +345,6 @@ main section{
     font-weight: bold;
     color: #0E0E0E;
     border-radius:16px ;
-    /* border: solid 2px #006A50; */
     background-color: white;
     box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
     
@@ -383,7 +392,6 @@ main section{
     justify-content: center;
 }
 .subscribe-input input[type="email"]{
-    /* height: 55px; */
     width: 600px;
     border: none;
     font-size: 16px ;
@@ -396,8 +404,6 @@ main section{
 }
 .subscribe-input button{
     height: 55px;
-    /* flex-grow: 1; */
-    /* width: px; */
     padding-left: 34px;
     padding-right: 34px;
     width: auto;
@@ -411,11 +417,17 @@ main section{
     margin-left: 0;
     color: lightgrey;
 }
+.subscribe-input button:hover{
+    background-color: rgb(186, 255, 24);
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.411);
+    color: #0E0E0E;
+}
 footer{
     padding-bottom:  50px ;
-    padding-top: 50 px;
+    padding-top: 50px;
     background-color: white;
     margin: 0;
+    margin-top: 80px;
 }
 footer img{
     height: 24px;
@@ -423,8 +435,11 @@ footer img{
     margin-right: 23px;
     gap: 23px;
 }
+/* hr{
+    border-top:red ;
+} */
 footer h3{
-    margin-top: 30px;
+    /* margin-top: 50px; */
 }
 /* {
     padding:  17px 34px;
