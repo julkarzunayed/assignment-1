@@ -232,7 +232,7 @@ main section{
     background-image: url(../assets/quote-bg.png);
     background-position: top left;
     background-position: 25px 24px;
-    margin-bottom: ;
+    /* margin-bottom: ; */
     background-repeat: no-repeat ;
     padding: 48px 48px;
     border-radius: 16px ;
@@ -318,9 +318,9 @@ main section{
 .news-content h3{
     margin: 0px;
 }
-.text-contyner{
+/* .text-contyner{
 
-}
+} */
 .news button{
     float: left;
     margin-bottom: 0;
@@ -440,6 +440,13 @@ footer img{
 } */
 footer h3{
     /* margin-top: 50px; */
+}
+footer img:hover{
+    box-shadow: 0 6px 50px 0 rgba(148, 30, 30, 0.06);
+    border: #09A15C solid 1px;
+    border-radius: 2px;
+    
+    
 }
 /* {
     padding:  17px 34px;
